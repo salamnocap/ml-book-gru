@@ -113,9 +113,9 @@
                 "feedback": "In LSTM they are the Input gate, Forget gate, and Output gate. Whereas in GRU we have a Reset gate and Update gate."
             },
             {
-                "answer": "Memory Gate",
+                "answer": "Unlike GRU, LSTM has a separate gate responsible for internal memory.",
                 "correct": true,
-                "feedback": "Wrong Answer."
+                "feedback": "Indeed GRU doesn't possess an internal memory."
             },
             {
                 "answer": "Relay Gate",
@@ -123,9 +123,9 @@
                 "feedback": "Wrong Answer."
             },
             {
-                "answer": "Reset Gate",
+                "answer": "Due to fewer amount of elements in side single cell, GRU has a faster covergence rate.",
                 "correct": true,
-                "feedback": "The reset gate determines how much of the previous hidden state should be forgotten."
+                "feedback": "GRU has fewer parameters (U and W are smaller) and thus may train a bit faster or need less data to generalize."
             }
         ]
     },
