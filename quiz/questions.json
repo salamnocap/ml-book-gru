@@ -1,31 +1,5 @@
 [
     {
-        "question": "Select two gates that a used in GRU.",
-        "type": "many_choice",
-        "answers": [
-            {
-                "answer": "Update Gate",
-                "correct": true,
-                "feedback": "the update gate determines how much of the new input should be used to update the hidden state."
-            },
-            {
-                "answer": "Memory Gate",
-                "correct": false,
-                "feedback": "Wrong Answer."
-            },
-            {
-                "answer": "Relay Gate",
-                "correct": false,
-                "feedback": "Wrong Answer."
-            },
-            {
-                "answer": "Reset Gate",
-                "correct": true,
-                "feedback": "The reset gate determines how much of the previous hidden state should be forgotten."
-            }
-        ]
-    },
-    {
         "question": "RNN Models have two major issues related to gradient:",
         "type": "many_choice",
         "answers": [
@@ -48,6 +22,32 @@
                 "answer": "Sensitivity to noise",
                 "correct": false,
                 "feedback": "Wrong Answer."
+            }
+        ]
+    },
+    {
+        "question": "GRU tries to solve the problem of the .... .",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "flying gradient",
+                "correct": false,
+                "feedback": "False."
+            },
+            {
+                "answer": "emulated gradient",
+                "correct": false,
+                "feedback": "False."
+            },
+            {
+                "answer": "vanishing gradient",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "ascending gradient",
+                "correct": false,
+                "feedback": "False."
             }
         ]
     },
@@ -100,6 +100,32 @@
                 "answer": "no weights, each layer",
                 "correct": false,
                 "feedback": "False."
+            }
+        ]
+    },
+    {
+        "question": "Select main differences between GRU and LSTM",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Number of gates. LSTM has 3 gates, while GRU has 2.",
+                "correct": true,
+                "feedback": "In LSTM they are the Input gate, Forget gate, and Output gate. Whereas in GRU we have a Reset gate and Update gate."
+            },
+            {
+                "answer": "Memory Gate",
+                "correct": true,
+                "feedback": "Wrong Answer."
+            },
+            {
+                "answer": "Relay Gate",
+                "correct": false,
+                "feedback": "Wrong Answer."
+            },
+            {
+                "answer": "Reset Gate",
+                "correct": true,
+                "feedback": "The reset gate determines how much of the previous hidden state should be forgotten."
             }
         ]
     },
