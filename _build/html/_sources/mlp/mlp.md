@@ -1,1 +1,0 @@
-# Multilayer perceptron (MLP)
